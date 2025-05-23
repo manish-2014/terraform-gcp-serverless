@@ -1,0 +1,13 @@
+/home/manish/projects/scott@work/terraform-madladlab/iam-core/provider.tf
+/home/manish/projects/scott@work/terraform-madladlab/iam-core/readme.md
+/home/manish/projects/scott@work/terraform-madladlab/iam-core/variables.tf
+/home/manish/projects/scott@work/terraform-madladlab/iam-core/main.tf
+/home/manish/projects/scott@work/terraform-madladlab/iam-core/outputs.tf
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/provider.tf
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/README.md
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/variables.tf
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/run-batch.sh
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/main.tf
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/outputs.tf
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/functions/log_batch_job_status/main.py
+//home/manish/projects/scott@work/terraform-madladlab/cloud-batch-job-deployer/functions/submit_cloud_batch_job/main.py

@@ -1,0 +1,4 @@
+functions-framework>=3.0.0
+google-cloud-batch>=0.10.0 # Consider checking for the latest stable version
+protobuf>=3.19.0,<5.0.0dev
+google-auth>=2.0.0,<3.0.0dev

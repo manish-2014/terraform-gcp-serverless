@@ -1,0 +1,15 @@
+{
+    "job_name_prefix": "my-java-test-run-",
+    "java_app_args": [
+        "--input-file",
+        "gs://your-input-bucket/data/my_data.txt",
+        "--output-path",
+        "gs://your-output-bucket/results/",
+        "--processing-mode",
+        "FAST"
+    ],
+    "container_env_vars": {
+        "JAVA_TOOL_OPTIONS": "-Xmx2g -Xms512m",
+        "CONFIG_PROFILE": "production"
+    }
+}

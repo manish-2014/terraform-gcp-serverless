@@ -1,0 +1,40 @@
+application:
+  name: cloud-transfer-webapp
+# Optional: Configure server port if needed (default is 8080)
+# server:
+#  port: 8081
+# Define a custom property (from previous step)
+custom:
+  greeting: "Hello from application.yaml!"
+
+# Configuration for the custom HCP Vault Service
+# Values are expected to be primarily provided via environment variables
+# See HcpVaultService.java for the environment variable names used
+
+vault:
+  secret:
+    gcp:
+      key-name: sa_gcp
+    sftp:
+      key-name: sftp_private_key
+hcp:
+  api:
+    # Base URL for the HCP authentication service
+    auth-url: "https://auth.idp.hashicorp.com/oauth2/token"
+    # Base URL for the HCP Secrets API (version included)
+    # Example: https://api.cloud.hashicorp.com/secrets/2023-11-28
+    base-url: "https://api.cloud.hashicorp.com/secrets/2023-11-28" # Adjust API version if needed
+    # Audience for the OAuth token request
+    audience: "https://api.hashicorp.cloud"
+
+
+logging:
+  level:
+    root: DEBUG
+    org:
+      manishsharan:
+        cloudtransfer:
+          cloud_transfer_cli:
+            CloudTransferJobApplication: DEBUG
+            service:
+              HcpVaultService: DEBUG
