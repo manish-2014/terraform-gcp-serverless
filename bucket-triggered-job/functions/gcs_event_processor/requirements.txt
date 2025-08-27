@@ -1,0 +1,5 @@
+# functions/gcs_event_processor/requirements.txt
+functions-framework>=3.0.0
+google-cloud-run>=0.10.0
+# Add any other specific libraries your function might need
+# google-cloud-storage # If you need to interact with GCS from the function itself

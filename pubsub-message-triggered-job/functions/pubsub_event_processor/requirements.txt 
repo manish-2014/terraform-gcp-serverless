@@ -1,0 +1,4 @@
+# functions/pubsub_event_processor/requirements.txt
+functions-framework>=3.0.0
+google-cloud-run>=0.10.0
+# google-cloud-pubsub # Only if the function needs to interact with Pub/Sub beyond being a trigger target
